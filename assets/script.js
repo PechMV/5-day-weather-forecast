@@ -6,7 +6,9 @@
 // var requestUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=Minneapolis&limit=5&appid=c370e788c0eae3b89b83525d5007548d'
 
 var apiKey = 'c370e788c0eae3b89b83525d5007548d';
-var requestUrl = 'http://api.openwathermap.org/data/2.5/forecast?q='
+var lat = 'position.coords.latiude';
+var lon = 'position.coords.longitude';
+var requestUrl = 'http://api.openwathermap.org/data/2.5/forecast?q=' + lat + lon '&appid=' + apiKey;
 
 fetch(requestUrl)
     .then(function(response){

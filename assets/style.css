@@ -19,3 +19,12 @@ input {
     background-color: #1c87c9;
     color: #ffffff;
 }
+
+h1 {
+    background-image: linear-gradient(to right, rgb(168, 75, 255), rgb(69, 56, 255));
+    margin: 0;
+    height: 50px;
+    text-align: center;
+    color: white;
+    
+}
