@@ -1,2 +1,4 @@
 # 5-day-weather-forecast
-Challenge 6 - Server side APIs 5 day weather forecast
+
+## Description
+For this week's challenge, we had to create a web application displaying the weather forecast. 
